@@ -22,5 +22,5 @@ jobs:
         run: npm ci # ci => clean install
 
       - name: Test your code
-        run: npm run test
+        run: npm run test -- --coverage
       
